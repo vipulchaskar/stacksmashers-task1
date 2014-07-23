@@ -1,5 +1,5 @@
-//usage : sudo ./pcap2 <interface name>
-//e.g.  : sudo ./pcap2 wlan0
+//usage : sudo ./pfring_sniffer <interface name>
+//e.g.  : sudo ./pfring_sniffer wlan0
 #include <pcap.h>
 #include <pfring.h>
 #include <stdio.h>
@@ -30,13 +30,12 @@ void sigproc(int sig) {
 
 void parse_packet(const struct pfring_pkthdr *packethdr, const u_char *packetptr, const u_char *args)
 {
-	struct ip* iphdr;
+	struct ip* iphdr;			// Header structures
 	struct icmphdr* icmphdr;
 	struct tcphdr* tcphdr;
 	struct udphdr* udphdr;
 	struct ether_header* etherhdr;
-	char iphdrInfo[256], srcip[256], dstip[256];
-	unsigned short id, seq;
+	unsigned short id, seq;			// ID and Sequence for ICMP packets
 	u_char *ptr;
 	int i;
  
@@ -117,7 +116,7 @@ void parse_packet(const struct pfring_pkthdr *packethdr, const u_char *packetptr
 int main(int argc, char *argv[])
 {
 	char *dev;			// The device to sniff on
-	char errbuf[PCAP_ERRBUF_SIZE];	// Error string
+	char errbuf[PCAP_ERRBUF_SIZE];	// Error string if any operation fails
 	struct bpf_program fp;		// The compiled filter (not used)
 	char filter_exp[] = "port 23";	// The filter expression (not used)
 	bpf_u_int32 mask;		// Our subnet mask
@@ -142,8 +141,8 @@ int main(int argc, char *argv[])
 		
 	pfring_loop(handle,parse_packet,NULL,0);
 		
-		
-	/* And close the session */
+
 	//pfring_close(handle);
+	
 	return 0;
 }
