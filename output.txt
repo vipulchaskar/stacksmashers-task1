@@ -1,0 +1,512 @@
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.128 	 Destination IP : 74.125.236.128
+	ID:61671 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:105 Checksum:40348
+Transport header (TCP):
+	Source port: 443	 Destination port: 57445
+	Flags : -AP---	Seq: 0x58533fe7 Ack: 0xd0d8c7b6 Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.142 	 Destination IP : 74.125.236.142
+	ID:33055 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:214 Checksum:3306
+Transport header (TCP):
+	Source port: 443	 Destination port: 55174
+	Flags : -AP---	Seq: 0x93497a71 Ack: 0x241ef452 Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:63080 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:52 Checksum:19522
+Transport header (TCP):
+	Source port: 55174	 Destination port: 443
+	Flags : -A----	Seq: 0x241ef452 Ack: 0x93497b13 Window: 0x7b TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:63081 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:135 Checksum:19438
+Transport header (TCP):
+	Source port: 55174	 Destination port: 443
+	Flags : -AP---	Seq: 0x241ef452 Ack: 0x93497b13 Window: 0x7b TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:63082 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:121 Checksum:19451
+Transport header (TCP):
+	Source port: 55174	 Destination port: 443
+	Flags : -AP---	Seq: 0x241ef4a5 Ack: 0x93497b13 Window: 0x7b TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:63083 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:79 Checksum:19492
+Transport header (TCP):
+	Source port: 55174	 Destination port: 443
+	Flags : -AP---	Seq: 0x241ef4ea Ack: 0x93497b13 Window: 0x7b TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:63084 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:52 Checksum:19518
+Transport header (TCP):
+	Source port: 55174	 Destination port: 443
+	Flags : -A---F	Seq: 0x241ef505 Ack: 0x93497b13 Window: 0x7b TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60435 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:1470 Checksum:40195
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -A----	Seq: 0x71b46f11 Ack: 0x2a6c11fe Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62645 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:80 Checksum:19919
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c11fe Ack: 0x71b463fd Window: 0x177 TcpLen: 60
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:27589 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:52 Checksum:55022
+Transport header (TCP):
+	Source port: 38353	 Destination port: 443
+	Flags : -A----	Seq: 0x95127856 Ack: 0xb88d4261 Window: 0x7b TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60436 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:1470 Checksum:40194
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -A----	Seq: 0x71b47faf Ack: 0x2a6c11fe Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62646 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:72 Checksum:19926
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c11fe Ack: 0x71b463fd Window: 0x177 TcpLen: 52
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60437 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:1470 Checksum:40193
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -A----	Seq: 0x71b4904d Ack: 0x2a6c11fe Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62647 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:72 Checksum:19925
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c11fe Ack: 0x71b463fd Window: 0x177 TcpLen: 52
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:11982 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:52 Checksum:5099
+Transport header (TCP):
+	Source port: 57447	 Destination port: 443
+	Flags : -A----	Seq: 0xe2cb2c5f Ack: 0x21c215be Window: 0x7b TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.142 	 Destination IP : 74.125.236.142
+	ID:33056 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:105 Checksum:3414
+Transport header (TCP):
+	Source port: 443	 Destination port: 55174
+	Flags : -AP---	Seq: 0x93497b13 Ack: 0x241ef4a5 Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:0 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:40 Checksum:17079
+Transport header (TCP):
+	Source port: 55174	 Destination port: 443
+	Flags : ---R--	Seq: 0x241ef4a5 Ack: 0x0 Window: 0x0 TcpLen: 20
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60438 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:1470 Checksum:40192
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -A----	Seq: 0x71b4abff Ack: 0x2a6c11fe Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62648 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:80 Checksum:19916
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c11fe Ack: 0x71b463fd Window: 0x177 TcpLen: 60
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:49547 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:52 Checksum:33069
+Transport header (TCP):
+	Source port: 57445	 Destination port: 443
+	Flags : -A----	Seq: 0xd0d8c7eb Ack: 0x5853401c Window: 0x7b TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.128 	 Destination IP : 74.125.236.128
+	ID:61672 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:52 Checksum:40400
+Transport header (TCP):
+	Source port: 443	 Destination port: 57445
+	Flags : -A----	Seq: 0x5853401c Ack: 0xd0d8c7eb Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.128 	 Destination IP : 74.125.236.128
+	ID:34716 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:52 Checksum:1821
+Transport header (TCP):
+	Source port: 443	 Destination port: 57447
+	Flags : -A----	Seq: 0x21c215be Ack: 0xe2cb2c5f Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60440 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:1470 Checksum:40190
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -A----	Seq: 0x71b4b713 Ack: 0x2a6c11fe Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62649 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:80 Checksum:19915
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c11fe Ack: 0x71b463fd Window: 0x177 TcpLen: 60
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60441 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:1470 Checksum:40189
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -A----	Seq: 0x71b4bc9d Ack: 0x2a6c11fe Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62650 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:80 Checksum:19914
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c11fe Ack: 0x71b463fd Window: 0x177 TcpLen: 60
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60442 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:1470 Checksum:40188
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -A----	Seq: 0x71b463fd Ack: 0x2a6c11fe Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62651 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:80 Checksum:19913
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c11fe Ack: 0x71b495d7 Window: 0x11e TcpLen: 60
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60443 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:1470 Checksum:40187
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -A----	Seq: 0x71b495d7 Ack: 0x2a6c11fe Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62652 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:72 Checksum:19920
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c11fe Ack: 0x71b4a675 Window: 0x18e TcpLen: 52
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60444 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:1470 Checksum:40186
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -A----	Seq: 0x71b4a675 Ack: 0x2a6c11fe Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62653 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:64 Checksum:19927
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c11fe Ack: 0x71b4b189 Window: 0x1a5 TcpLen: 44
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60446 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:658 Checksum:40996
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -AP---	Seq: 0x71b4c7b1 Ack: 0x2a6c11fe Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62654 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:72 Checksum:19918
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c11fe Ack: 0x71b4b189 Window: 0x1a5 TcpLen: 52
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60447 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:1470 Checksum:40183
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -A----	Seq: 0x71b4b189 Ack: 0x2a6c11fe Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62655 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:64 Checksum:19925
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c11fe Ack: 0x71b4c227 Window: 0x1bb TcpLen: 44
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.133 	 Destination IP : 74.125.236.133
+	ID:1067 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:466 Checksum:35051
+Transport header (TCP):
+	Source port: 443	 Destination port: 38353
+	Flags : -AP---	Seq: 0xb88d4261 Ack: 0x95127856 Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:27590 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:52 Checksum:55021
+Transport header (TCP):
+	Source port: 38353	 Destination port: 443
+	Flags : -A----	Seq: 0x95127856 Ack: 0xb88d43ff Window: 0x83 TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.133 	 Destination IP : 74.125.236.133
+	ID:1068 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:130 Checksum:35386
+Transport header (TCP):
+	Source port: 443	 Destination port: 38353
+	Flags : -AP---	Seq: 0xb88d43ff Ack: 0x95127856 Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:27591 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:52 Checksum:55020
+Transport header (TCP):
+	Source port: 38353	 Destination port: 443
+	Flags : -A----	Seq: 0x95127856 Ack: 0xb88d444d Window: 0x83 TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.133 	 Destination IP : 74.125.236.133
+	ID:1069 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:95 Checksum:35420
+Transport header (TCP):
+	Source port: 443	 Destination port: 38353
+	Flags : -AP---	Seq: 0xb88d444d Ack: 0x95127856 Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:27592 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:52 Checksum:55019
+Transport header (TCP):
+	Source port: 38353	 Destination port: 443
+	Flags : -A----	Seq: 0x95127856 Ack: 0xb88d4478 Window: 0x83 TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60448 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:1470 Checksum:40182
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -A----	Seq: 0x71b4c227 Ack: 0x2a6c11fe Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62656 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:52 Checksum:19936
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c11fe Ack: 0x71b4ca0f Window: 0x1d2 TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62657 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:1470 Checksum:18517
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c11fe Ack: 0x71b4ca0f Window: 0x1d2 TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62658 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:1376 Checksum:18610
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -AP---	Seq: 0x2a6c1788 Ack: 0x71b4ca0f Window: 0x1d2 TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60449 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:52 Checksum:41599
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -A----	Seq: 0x71b4ca0f Ack: 0x2a6c1cb4 Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60450 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:305 Checksum:41345
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -AP---	Seq: 0x71b4ca0f Ack: 0x2a6c1cb4 Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62659 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:52 Checksum:19933
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c1cb4 Ack: 0x71b4cb0c Window: 0x1e8 TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: 98:fc:11:c9:a4:c3	Destination MAC: cc:af:78:67:6c:fd 
+Network header (IP) : 
+	Source IP : 74.125.236.152 	 Destination IP : 74.125.236.152
+	ID:60451 TOS:0x0 TTL:52 IpHdrLen:20 TotalLen:85 Checksum:41564
+Transport header (TCP):
+	Source port: 443	 Destination port: 49895
+	Flags : -AP---	Seq: 0x71b4cb0c Ack: 0x2a6c1cb4 Window: 0x29e TcpLen: 32
+------------------------------------------------------------
+
+Ethernet header:
+	Source MAC: cc:af:78:67:6c:fd	Destination MAC: 98:fc:11:c9:a4:c3 
+Network header (IP) : 
+	Source IP : 192.168.0.101 	 Destination IP : 192.168.0.101
+	ID:62660 TOS:0x0 TTL:64 IpHdrLen:20 TotalLen:52 Checksum:19932
+Transport header (TCP):
+	Source port: 49895	 Destination port: 443
+	Flags : -A----	Seq: 0x2a6c1cb4 Ack: 0x71b4cb2d Window: 0x1e8 TcpLen: 32
+------------------------------------------------------------
+
+^Cpfring closed.Vipulc:~/Desktop/task$ 
+
